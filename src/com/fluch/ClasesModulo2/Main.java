@@ -11,8 +11,9 @@ public class Main {
         //condicionalesComplejos.Ejercicio1();
         //condicionalesComplejos.Ejercicio2();
         //condicionalesComplejos.Ejercicio3();
-        condicionalesComplejos.Ejercicio4();
-        switchCase.Ejercicio1();
+        //condicionalesComplejos.Ejercicio4();
+        //switchCase.Ejercicio1();
+        switchCase.Ejercicio2();
 
     }
 }

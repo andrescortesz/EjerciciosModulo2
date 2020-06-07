@@ -1,5 +1,5 @@
 package com.fluch.ClasesModulo2;
-
+import testio.TextIO;
 public class switchCase {
     public static void Ejercicio1(){
         /*  Ejercicio1: Desarrolla un programa donde por medio del tipo de un motor,
@@ -43,7 +43,42 @@ public class switchCase {
         *   realice una operación con dos números enteros ya definidos y mostrar el resultado,
         *   los operadores a tener en cuenta son los vistos en la tabla de operadores aritméticos,
         *   sí deseas agregar más operadores, siéntete en libertad de hacerlo.
-        * */
-        
+        */
+        /*   Operadores: -> + - * / %
+        *    Solicitar operacion a realizar
+        *    leer y Almacenar operacion
+        */   
+            double number1, number2;
+            double resultado;
+            System.out.println("Ingrese operacion a realizar: \n - Sumar: ingrese 1 \n - Restar: ingrese 2 \n - Multiplicar: ingrese 3");
+            System.out.println(" - Dividir: ingrese 4");
+            System.out.println();
+            int operador=TextIO.getInt();
+            System.out.print("Ingrese los numeros a operar: ");
+            number1=TextIO.getlnDouble();
+            System.out.println();
+            number2=TextIO.getlnDouble();
+
+         switch (operador){
+            case 1:
+                resultado=number1+number2;
+                System.out.println("La suma de los enteros es: " + resultado);
+                break;
+            case 2:
+                resultado=number1-number2;
+                System.out.println("La resta de los enteros es: " + resultado);
+                break;
+            case 3:
+                resultado= number1*number2;
+                System.out.println("La multiplicacion de los enteros es: " + resultado);
+                break;
+            case 4:
+                resultado= (number1/number2);
+                System.out.printf("La división de los enteros es: %2.2f" , resultado);
+                System.out.println();
+                break;
+            default:
+                System.out.println("Operador invalido");
+        }//end switch®
     }//end Ejercicio2
 }//end class switchCase
