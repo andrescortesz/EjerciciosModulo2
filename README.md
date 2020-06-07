@@ -6,7 +6,7 @@
 
 Para ello, se ha organizado en estos ejercicios cuatro (4) contenidos temáticos, entre ellos:
 
->	a. Estructuras condicionales -> if, switch
->	b. Ciclos					 -> for, while
+>	a. Estructuras condicionales  -> if, switch
+>	b. Ciclos					            -> for, while
 >	c. Vectores
 >	d. Matrices
