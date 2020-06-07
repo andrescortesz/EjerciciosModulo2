@@ -13,7 +13,8 @@ public class Main {
         //condicionalesComplejos.Ejercicio3();
         //condicionalesComplejos.Ejercicio4();
         //switchCase.Ejercicio1();
-        switchCase.Ejercicio2();
+        //switchCase.Ejercicio2();
+        forEjercicios.Ejercicio1();
 
     }
 }
