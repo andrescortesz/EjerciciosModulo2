@@ -1,4 +1,6 @@
 package com.fluch.ClasesModulo2;
+import testio.TextIO;
+
 import java.util.Scanner;
 
 public class forEjercicios {
@@ -46,4 +48,27 @@ public class forEjercicios {
             System.out.println("El numero " + numero + " no es perfecto. ");
         myObj.close();
     }//end Ejercicio3
+    public static void Ejercicio4(){
+        /*  Desarrollar un programa que realice la sumatoria de todas las iteraciones de un ciclo
+            desde 0 hasta un número entero definido previamente, al resultado de la suma realizar
+            las siguientes operaciones.
+                - Raízcuadrada.
+                - Generar un número aleatorio entre 1 y la sumatoria de las iteraciones.
+                - Determinar los divisores.
+                - Hallar la factorial.
+                - Definir si es un número perfecto.
+        */
+        int sumaIteracion=0, numero, numeroAleatorio ;
+        double raizCuadrada;
+        System.out.println("Ingrese numero para generar iteraciones:");
+        numero= TextIO.getlnInt();
+
+        for (int i=1;i<=numero; sumaIteracion=sumaIteracion+i, i++);
+        raizCuadrada= Math.sqrt(sumaIteracion);
+        numeroAleatorio = (int) Math.floor(Math.random()*(sumaIteracion+0.9));
+        //System.out.println("La raiz cuadrada es: " + raizCuadrada);
+        System.out.println("La suma de la iteracion es: " +  sumaIteracion);
+        System.out.println("El numero aleatorio es: " + numeroAleatorio);
+
+    }//end Ejercicio4
 }//end class

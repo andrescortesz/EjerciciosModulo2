@@ -16,7 +16,7 @@ public class Main {
         //switchCase.Ejercicio2();
         //forEjercicios.Ejercicio1();
         //forEjercicios.Ejercicio2();
-        forEjercicios.Ejercicio3();
-
+        //forEjercicios.Ejercicio3();
+        forEjercicios.Ejercicio4();
     }
 }
