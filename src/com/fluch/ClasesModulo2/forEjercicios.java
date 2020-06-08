@@ -72,7 +72,7 @@ public class forEjercicios {
                 suma=i+suma;
                 count++;
         }//end for
-        numeroAleatorio = (int) Math.floor(Math.random()*(sumaIteracion+0.9));
+        numeroAleatorio = (int) Math.ceil(Math.random()*(sumaIteracion));
         raizCuadrada= Math.sqrt(sumaIteracion);
         System.out.println("La suma de la iteracion es: " +  sumaIteracion);
         System.out.println("La raiz cuadrada es: " + raizCuadrada);

@@ -17,6 +17,7 @@ public class Main {
         //forEjercicios.Ejercicio1();
         //forEjercicios.Ejercicio2();
         //forEjercicios.Ejercicio3();
-        forEjercicios.Ejercicio4();
+        //forEjercicios.Ejercicio4();
+        whileEjercicios.Ejercicio1();
     }
 }
