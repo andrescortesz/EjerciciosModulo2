@@ -11,7 +11,8 @@ public class forEjercicios {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Ingrese el numero que desee que sea factorial:");
         int numero = myObj.nextInt();
-        for (int i=numero;i>=1;i--)
+        //for (int i=numero;i>=1;i--)
+        for (int i=1;i<numero;i++)
             factorial=i*factorial;
         System.out.println("El factorial de " + numero + " es: " + factorial);
         myObj.close();
@@ -20,7 +21,7 @@ public class forEjercicios {
         //Desarrollar un programa que determine los divisores de un número definido previamente.
         int divisor, count=0;
         Scanner myObj = new Scanner(System.in);
-        System.out.println("Ingrese el numero que desee que sea evaluado:");
+        System.out.println("Ingrese el numero que desea ser evaluado:");
         int numero = myObj.nextInt();
         for (int i=1;i<numero;i++){
             divisor=numero%i;
@@ -58,17 +59,29 @@ public class forEjercicios {
                 - Hallar la factorial.
                 - Definir si es un número perfecto.
         */
-        int sumaIteracion=0, numero, numeroAleatorio ;
+        int sumaIteracion=0, divisor=0, suma=0, numero, numeroAleatorio, count=0 ;
         double raizCuadrada;
+        long factorial=1;
         System.out.println("Ingrese numero para generar iteraciones:");
         numero= TextIO.getlnInt();
-
         for (int i=1;i<=numero; sumaIteracion=sumaIteracion+i, i++);
-        raizCuadrada= Math.sqrt(sumaIteracion);
+        for (int i=1;i<sumaIteracion;i++){
+            factorial=i*factorial;
+            divisor=sumaIteracion%i;
+            if (divisor==0)
+                suma=i+suma;
+                count++;
+        }//end for
         numeroAleatorio = (int) Math.floor(Math.random()*(sumaIteracion+0.9));
-        //System.out.println("La raiz cuadrada es: " + raizCuadrada);
+        raizCuadrada= Math.sqrt(sumaIteracion);
         System.out.println("La suma de la iteracion es: " +  sumaIteracion);
+        System.out.println("La raiz cuadrada es: " + raizCuadrada);
         System.out.println("El numero aleatorio es: " + numeroAleatorio);
-
+        System.out.println("El numero " + sumaIteracion + " tiene: " + count + " divisores");
+        System.out.println("El factorial de " + sumaIteracion + " es: " + factorial);
+        if (suma==sumaIteracion)
+            System.out.println("El numero " + sumaIteracion + " es perfecto. ");
+        else
+            System.out.println("El numero " + sumaIteracion + " no es perfecto. ");
     }//end Ejercicio4
 }//end class
