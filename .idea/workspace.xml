@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be54998-b62d-4f7c-8a31-bc482c52f83d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/fluch/ClasesModulo2/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
