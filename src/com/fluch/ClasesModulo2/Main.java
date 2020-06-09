@@ -18,6 +18,14 @@ public class Main {
         //forEjercicios.Ejercicio2();
         //forEjercicios.Ejercicio3();
         //forEjercicios.Ejercicio4();
-        whileEjercicios.Ejercicio1();
-    }
-}
+        //whileEjercicios.Ejercicio1();
+        //whileEjercicios.Ejercicio2();
+        //whileEjercicios.Ejercicio3();
+        //whileEjercicios.Ejercicio4();
+        //whileEjercicios.Ejercicio5();
+        //vectores.Ejercicio1();
+        //vectores.Ejercicio2();
+        //vectores.Ejercicio3();
+
+    }//end main
+}//end class main

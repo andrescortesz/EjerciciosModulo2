@@ -11,9 +11,16 @@ public class forEjercicios {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Ingrese el numero que desee que sea factorial:");
         int numero = myObj.nextInt();
-        //for (int i=numero;i>=1;i--)
+        //for (int i=numero;i>=1;i--)// otra forma de usar el For
         for (int i=1;i<numero;i++)
             factorial=i*factorial;
+        //------------ Usando Do while -------/
+        /*int i=1;
+        do {
+            factorial=i*factorial;
+            i++;
+        } while (i<=numero);
+        //-------------*/
         System.out.println("El factorial de " + numero + " es: " + factorial);
         myObj.close();
     }//end Ejercicio1
