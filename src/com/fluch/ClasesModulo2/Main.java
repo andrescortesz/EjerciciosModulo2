@@ -26,6 +26,6 @@ public class Main {
         //vectores.Ejercicio1();
         //vectores.Ejercicio2();
         //vectores.Ejercicio3();
-
+        matrices.Ejercicio1();
     }//end main
 }//end class main
