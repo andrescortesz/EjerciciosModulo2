@@ -1,7 +1,6 @@
 package com.fluch.ClasesModulo2;
 
 public class Main {
-
     public static void main(String[] args) {
 	    //condicionalesSimples.Ejercicio1();
 	    //condicionalesSimples.Ejercicio2();

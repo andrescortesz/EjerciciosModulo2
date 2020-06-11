@@ -17,7 +17,6 @@ public class matrices {
         int[][] matrizA = new int[filas][columnas];
         int[][] matrizB = new int[filas][columnas];
         int[][] matrizC = new int[filas][columnas];
-        for (int k = 0; k < 3; k++){
             for (int i = 0; i < filas; i++) {
                 for (int j = 0; j < columnas; j++) {
                     do {
@@ -28,7 +27,13 @@ public class matrices {
                     matrizA[i][j] = numeroA;
                     matrizB[i][j] = numeroB;
                     matrizC[i][j] = numeroC;
+                }//end for j
+                System.out.println();
+            }//end for i
 
+        for (int k = 0; k < 3; k++){
+            for (int i = 0; i < filas; i++) {
+                for (int j = 0; j < columnas; j++) {
                     switch (k) {
                         case 0:
                             System.out.print(" " + matrizA[i][j]);
@@ -39,21 +44,11 @@ public class matrices {
                         case 2:
                             System.out.print(" " + matrizC[i][j]);
                             break;
-                    }
-                      /*
-                    }
-                    if (k==0)
-                        System.out.print(" " + matrizA[i][j]);
-                    else if (k==1)
-                        System.out.print(" " + matrizB[i][j]);
-                    else
-                        System.out.print(" " + matrizC[i][j]);
-                    */
+                    }//end switch
                 }//end for j
                 System.out.println();
             }//end for i
             System.out.println();
-            //System.out.println();
         }//end for k
     }//end Ejercicio1
 }//end class matrices
